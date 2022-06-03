@@ -1,0 +1,65 @@
+@import url(reset.css);
+.wrapper {
+    max-width: 1400px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-areas: 
+    'b1 b1 b1 b1 b1 b1 b1 b1'
+    'b2 b2 b2 b2 b2 b3 b3 b3'
+    'b4 b4 b5 b5 b5 b5 b5 b5'
+    'b6 b6 b7 b7 b8 b8 b9 b9';
+}
+.b {
+    display: block;
+    font-size: 30px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border: 1.5px solid black;
+    display: grid;
+}
+.b1 {
+    background-color: dodgerblue;
+    grid-area: b1;
+}
+.b2 {
+    background-color: rgba(0, 0, 255, 0.913);
+    grid-area: b2;
+}
+.b3 {
+    background-color: orange;
+    grid-area: b3;
+}
+.b4 {
+    background-color: red;
+    grid-area: b4;
+}
+.b5 {
+    background-color: green;
+    grid-area: b5;
+}
+.b6 {
+    background-color: grey;
+    grid-area: b6;
+}
+.b7 {
+    background-color: blueviolet;
+    grid-area: b7;
+}
+.b8 {
+    background-color: deepskyblue;
+    grid-area: b8;
+}
+.b9 {
+    background-color: rgba(115, 115, 255, 0.793);
+    grid-area: b9;
+}
+.e {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
